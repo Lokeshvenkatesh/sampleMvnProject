@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10173" started-at="2018-08-08T13:07:35Z" finished-at="2018-08-08T13:07:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10173" started-at="2018-08-08T13:07:35Z" finished-at="2018-08-08T13:07:45Z">
+      <class name="Sample_mvn.Sample_mvn.Sample">
+        <test-method status="PASS" signature="method1()[pri:0, instance:Sample_mvn.Sample_mvn.Sample@3f049056]" name="method1" is-config="true" duration-ms="7160" started-at="2018-08-08T13:07:35Z" finished-at="2018-08-08T13:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:Sample_mvn.Sample_mvn.Sample@3f049056]" name="method2" duration-ms="2861" started-at="2018-08-08T13:07:43Z" finished-at="2018-08-08T13:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- Sample_mvn.Sample_mvn.Sample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
