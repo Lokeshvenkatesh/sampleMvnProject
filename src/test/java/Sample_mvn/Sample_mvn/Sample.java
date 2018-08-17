@@ -2,6 +2,7 @@ package Sample_mvn.Sample_mvn;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -16,13 +17,15 @@ public class Sample {
 		        
         System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver.exe");
         driver=new ChromeDriver();
+       
 	}
 	
 	
 	@Test
 	public void method2(){
 		System.out.println("Test1");
-		driver.get("http://google.com");
+		driver.get("https://javaconceptoftheday.com");
+		String Browsertitle=driver.getTitle();
 	}
 	
 
